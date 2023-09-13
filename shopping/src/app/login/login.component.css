@@ -1,0 +1,18 @@
+body{
+     background: linear-gradient(black,grey,black);
+     padding: 250px;
+}
+.login-files{
+    justify-content: center;
+    display: grid;
+    padding: 50px;
+}
+
+.login-form{
+    background-image: url(/assets/bgimg.webp);
+    border-radius: 25px;
+    height: 350px;
+    width: 500px;
+    margin-left: 20%;
+}
+

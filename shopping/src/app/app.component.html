@@ -1,0 +1,66 @@
+<div class="container">
+    <header>
+        <ul class="nav">
+          <li class="nav-item">
+            <a [routerLink]="['home']" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['product']" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['about']" class="nav-link">About</a>
+          </li>
+          <input class="input" type="text" placeholder="..search here" name="search" id="" style="font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;color: blanchedalmond;">
+          <button style="border-top-right-radius: 40px;border-bottom-right-radius: 40px;height: 40px;" class="btn-dark" type="search "> search </button>
+           <a class="btn" [routerLink]="['login']"><img src="" alt="">login</a>
+          <a class="cart-img" [routerLink]="['cart']"><img src="/assets/icons8-fast-cart-30.png" alt="" style="width: 40px;height:40px;"></a>
+    
+        </ul>
+    
+    </header>
+    
+    <router-outlet></router-outlet>
+    
+    
+    
+    <footer>
+      
+        <div class="footer"
+          style=" display: flex; justify-content:space-around; color: beige ; padding-top: 30px; padding-bottom: 30px;">
+          <div>
+            <ul style="list-style: none;">
+              <li>Terms and Conditions</li>
+              <li>Privacy Policy</li>
+              <li>Returns and Refundsz</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+    
+          <div>
+            <ul style="list-style: none;">
+              <li>Categories</li>
+              <li>brands</li>
+              <li>home</li>
+              <li>new arrivals</li>
+            </ul>
+           
+          </div>
+          <div>
+            <ul style="list-style: none;">
+              <li>My orders</li>
+              <li>FAQ</li>
+              <li>Customer care</li>
+              <li>Coupons</li>
+            </ul> 
+          </div>
+        </div>
+      <hr size="5">
+         <div style="padding-left: 450px;"><h5 style="color: azure;">Follow us on</h5></div>
+          <div class="social-media">
+<a href="" class="insta"><img src="../assets/icons8-instagram-48.png" alt=""></a>
+<a href="" class="facebook"><img src="../assets/icons8-facebook-48.png" alt=""></a>
+<a href="" class="whatsapp"><img src="../assets/icons8-whatsapp-48.png" alt=""></a>
+      </div>
+    </footer>
+  </div>
+    

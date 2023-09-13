@@ -1,0 +1,22 @@
+
+.items{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.item1{
+    display: flex;
+    padding-left:50px; 
+    justify-content: space-around;
+   
+    
+}
+.item2{
+    display:flex ;
+    padding-left: 50px;
+    justify-content: space-around;
+    
+}
+.row-2{
+    display: flex;
+}
